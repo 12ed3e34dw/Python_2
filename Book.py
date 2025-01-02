@@ -40,7 +40,7 @@ class Book:
     def __lt__(self, new_self):
         if not isinstance(new_self, Book):
             return NotImplemented
-        return self.Price_Book < new_self.Price_Book
+       return self.Release_data_Book < new_self.Release_data_Book
     # Присоединение информацию до перезагрузки и после
     def __add__(self, new_self):
         if not isinstance(new_self, Book):
