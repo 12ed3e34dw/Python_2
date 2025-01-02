@@ -1,11 +1,11 @@
 class Stadium:
 
  def __init__(self, Name_Stadium="",Opening_date_Stadium="",Country="",City="",Capacity_Stadium=""):
-     Name_Stadium = Name_Stadium
-     Opening_date_Stadium = Opening_date_Stadium
-     Country = Country
-     City = City
-     Capacity_Stadium = Capacity_Stadium
+     self.Name_Stadium = Name_Stadium
+     self.Opening_date_Stadium = Opening_date_Stadium
+     self.Country = Country
+     self.City = City
+     self.Capacity_Stadium = Capacity_Stadium
 
  def input_info_Stadium(self):
     print(" _____________________________________________")
