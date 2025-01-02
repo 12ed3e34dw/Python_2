@@ -1,11 +1,11 @@
 class Book:
     def __init__(self, Name_Book="",Release_data_Book="",publisher_Book="",Genre_Book="",Author_Book="",Price_Book=""):
-       Name_Book = Name_Book
-       Release_data_Book = Release_data_Book
-       publisher_Book = publisher_Book
-       Genre_Book = Genre_Book
-       Author_Book = Author_Book
-       Price_Book = Price_Book
+      self.Name_Book = Name_Book
+      self.Release_data_Book = Release_data_Book
+      self.publisher_Book = publisher_Book
+      self.Genre_Book = Genre_Book
+      self.Author_Book = Author_Book
+      self.Price_Book = Price_Book
 
     def input_info_Book(self):
      print("____________________________________")
