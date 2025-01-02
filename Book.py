@@ -53,7 +53,7 @@ class Book:
               Author_Book= f"{self.Author_Book} and {new_self.Author_Book}",
               Price_Book= f"{self.Price_Book} and {new_self.Price_Book}",
         )
-    # Вывод информации
+ 
     def __str__(self):
         return (
             f"Назва книги: {self.Name_Book}"
