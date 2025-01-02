@@ -1,13 +1,13 @@
 class Auto:
 
  def __init__(self,Name_Auto="",Models_Auto="",Release_data_Auto="",Creator_Auto="",Engine_volume_Auto="",Color_Auto="",Price_Auto=""):
-  Name_Auto=Name_Auto
-  Models_Auto=Models_Auto
-  Release_data_Auto=Release_data_Auto
-  Creator_Auto=Creator_Auto
-  Engine_volume_Auto=Engine_volume_Auto
-  Color_Auto=Color_Auto
-  Price_Auto=Price_Auto
+  self.Name_Auto=Name_Auto
+  self.Models_Auto=Models_Auto
+  self.Release_data_Auto=Release_data_Auto
+  self.Creator_Auto=Creator_Auto
+  self.Engine_volume_Auto=Engine_volume_Auto
+  self.Color_Auto=Color_Auto
+  self.Price_Auto=Price_Auto
 
 
  def input_info_Auto(self):
