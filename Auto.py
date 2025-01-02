@@ -60,7 +60,7 @@ class Auto:
             Color_Auto=f"{self.Color_Auto} and {new_self.Color_Auto}",
             Price_Auto=f"{self.Price_Auto} and {new_self.Price_Auto}",
         )
-    #Вывод информации
+ 
     def __str__(self):
         return (
             f"____________________________________"
